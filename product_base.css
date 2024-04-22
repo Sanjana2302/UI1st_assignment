@@ -1,0 +1,226 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+   
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    border-radius: 15%;
+    /*border: 2px solid black;
+    */-webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    -webkit-border-radius: 15%;
+}
+.header_main
+{
+    display: flex;
+    flex-direction: row;
+    height: 9vh;
+    width: 100%;
+    background-image: linear-gradient(178deg,#2BC0E4,#EAECC6);
+    padding: 5px;
+    /* position: fixed; */
+    justify-content: space-evenly;
+}
+.header_main .logo
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-basis: 30%;
+    /* border: 2px solid black; */
+    
+}
+.logo h3{
+    color: red;
+    font-size: 3vh;
+     text-align: center;
+     /* border: none; */
+}
+.logo h4{
+    font-size: 2.5vh;
+     text-align: center;
+}
+.header_main .menus
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-basis: 60%;
+    /* border: 2px solid black; */
+    
+}
+.menus ul
+{
+    display: flex;
+
+}
+.menus ul li
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.menus ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    /* padding-left: 5vw; */
+    border: 3px solid white;
+    margin-left: 5vw;
+    /* margin-top: 1vh; */
+    padding: 10px;
+    font-size: 2.1vh;
+}
+
+
+.menus ul li a:hover
+{
+    display: flex;
+  background-color: red;
+  color: white;
+  font-size: 2.5vh;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* padding: 10px; */
+}
+
+.conatiner2
+{
+    background-image: linear-gradient(190deg,#BE93C5,#7BC6CC);
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    /*border: 2px solid black;
+    */align-items: center;
+    border: radius 13%;;
+    /* background-image: linear-gradient(180deg,#fff,#FBD3E9,#BB377D); */
+    /* -moz-border-radius:13%;
+    -ms-border-radius:13%;
+    -o-border-radius:13%;
+    -webkit-border-radius:13%; */
+}
+.head
+{
+   display: flex;
+    height: 40px;
+    background-color: gainsboro;
+    width: 100%;
+}
+.head h2
+{
+   /* justify-content: center;
+   align-items: center; */
+   color: rebeccapurple;
+   font-size: 1.5em;
+   padding: 5px;
+   text-align: center;
+}
+.location
+{
+    margin-top: 10px;
+    height:auto ;
+    width: 100%;
+    /* background-color: gainsboro; */
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(130deg,#50C9C3,#96DEDA);
+}
+.location h4
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 3vh;
+    text-align: center;
+}
+.main_box
+{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding-bottom: 10px; */
+}
+.location .box
+{
+    flex-basis: 45%;
+    border: 2px solid red;
+    padding: 5px;
+   
+    text-align: center;
+}
+.location .box a{
+    color: black;
+    text-decoration: none;
+}
+.location .box:hover
+{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border: 2px solid white;
+}
+.content
+{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: auto;
+    /* background-color: aqua; */
+    width: 100%;
+    /* background-image: linear-gradient(178deg,#2BC0E4,#EAECC6); */
+    justify-content: space-evenly;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: red; */
+}
+ .inner_boxes
+ {
+    background-image: linear-gradient(178deg,#2BC0E4,#EAECC6);
+    border-top-right-radius: 30%;
+    /* background-color: white; */
+    border-bottom-left-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+/* border: 2px solid black; */
+    box-shadow: 2px 4px black;
+justify-items: center;
+padding: 5px;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+ .inner_boxes img{
+    height: 34vh;
+    width: 15vw;
+    padding: 10px;
+    /* object-fit: cover; */
+ }
+.footer
+{
+    margin-top: 10px;
+    height: 10vh;
+    background-image: linear-gradient(178deg,#2BC0E4,#EAECC6);
+}
+.footer h2{
+    text-align: center;
+    padding-top: 25px;
+}
